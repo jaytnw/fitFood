@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>โปรแกรมคำนวณหาค่าดัชนีมวลกาย (BMI)</title>
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<script src="script.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="icon" href="img/lo.jpg"/>
+	
+</head>
+<body>
+	<div class="banner" id="banner5">
+		<div class="menu">
+			<div class="logo">
+				<a href="index.html"><img src="img/logo.png" alt=""></a>
+			</div>
+			
+			<div class="nev-a">
+				<ul class="nav">
+				<li><a href="index.html">หน้าแรก</a></li>
+				<li><a href="index.html#bg1">อาหารเพื่อสุขภาพ</a></li>
+				<li><a href="index.html#bg2">เครื่องดื่มเพื่อสุขภาพ</a></li>
+				<li><a href="cal.html">คำนวณแคลลอรี่</a></li>
+				<li class="active" ><a href="calBMI.html">คำนวณดัชนีมวลกาย</a></li>
+				<li><a href="restaurant.html">ค้นหาร้านอาหาร</a></li>
+				<li><a href="group.html">ผู้จัดทำ</a></li>
+				</ul>
+			</div>
+		
+
+		</div>
+		
+		<div class="wrapper">
+			<div class="row">
+			
+				<h2 >โปรแกรมคำนวณหาค่าดัชนีมวลกาย (BMI)</h2>
+				<p>การหาค่าดัชนีมวลกาย (Body Mass Index : BMI) คือเป็นมาตรการที่ใช้ประเมินภาวะอ้วนและผอมในผู้ใหญ่ ตั้งแต่อายุ 20 ปีขึ้นไป สามารถทำได้โดยการชั่งน้ำหนักตัวเป็นกิโลกรัม และวัดส่วนสูงเป็นเซนติเมตร แล้วนำมาหาดัชมีมวลกาย โดยใช้โปรแกรมวัดค่าความอ้วนข้างต้น</p>
+				
+				<div class="cal">
+					
+  					<p class="text">น้ำหนัก (kg)</p>
+  					<input type="number" id="weight"><br>
+
+  					<p class="text">ส่วนสูง (cm)</p>
+  					<input type="number" id="height"><br><br>
+
+  					<button type="buttom" class="calbt" onclick="calBMI()" >คำนวณ</button>
+  					<h5>BMI</h5>
+  					<h2 id="num">0</h2>
+					
+					<table class="BMI">
+					<tr class="head">
+						<td>BMI kg/m2</td>
+						<td>อยู่ในเกณท์</td>
+						<td>ภาวะเสี่ยงต่อโรค</td>
+					</tr>
+					<tr id="row1">
+						<td>น้อยกว่า 18.50</td>
+						<td>น้ำหนักน้อย / ผอม</td>
+						<td>มากกว่าคนปกติ</td>
+					</tr>					
+					<tr id="row2">
+						<td>ระหว่าง 18.50 - 22.90</td>
+						<td>ปกติ (สุขภาพดี)</td>
+						<td>เท่าคนปกติ</td>
+					</tr>					
+					<tr id="row3">
+						<td>ระหว่าง 23 - 24.90</td>
+						<td>ท้วม / โรคอ้วนระดับ 1</td>
+						<td>อันตรายระดับ 1</td>
+					</tr>					
+					<tr id="row4">
+						<td>ระหว่าง 25 - 29.90</td>
+						<td>อ้วน / โรคอ้วนระดับ 2</td>
+						<td>อันตรายระดับ 2</td>
+					</tr>					
+					<tr id="row5">
+						<td>มากกว่า 30</td>
+						<td>อ้วนมาก / โรคอ้วนระดับ 3</td>
+						<td>อันตรายระดับ 3</td>
+					</tr>					
+	
+
+				</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="buttom">
+		<div class="row">
+			<div class="box1">
+				<br>
+				<p>มหาวิทยาลัยขอนแก่น<br>Khon kaen University</p>
+				<p>เบอร์โทรศัพท์<br>043-009700</p>
+				<p>	ที่อยู่<br>123 หมู่ 16 ถ.มิตรภาพ ต.ในเมือง อ.เมือง จ.ขอนแก่น 40002</p>
+
+			</div>
+			<div class="box2">
+				<a href="group.html">ผู้จัดทำ</a>
+
+
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

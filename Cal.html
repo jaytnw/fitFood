@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>โปรแกรมคำนวณการเผาผลาญพลังงาน BMR</title>
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<script src="script.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="icon" href="img/lo.jpg"/>
+	
+</head>
+<body>
+	<div class="banner" id="banner2">
+		<div class="menu">
+			<div class="logo">
+				<a href="index.html"><img src="img/logo.png" alt=""></a>
+			</div>
+			
+			<div class="nev-a">
+				<ul class="nav">
+				<li><a href="index.html">หน้าแรก</a></li>
+				<li><a href="index.html#bg1">อาหารเพื่อสุขภาพ</a></li>
+				<li><a href="index.html#bg2">เครื่องดื่มเพื่อสุขภาพ</a></li>
+				<li class="active" ><a href="cal.html">คำนวณแคลลอรี่</a></li>
+				<li><a href="calBMI.html">คำนวณดัชนีมวลกาย</a></li>
+				<li><a href="restaurant.html">ค้นหาร้านอาหาร</a></li>
+				<li><a href="group.html">ผู้จัดทำ</a></li>
+				</ul>
+			</div>
+		
+
+		</div>
+		
+		<div class="wrapper">
+			<div class="row">
+			
+				<h2 >โปรแกรมคำนวณการเผาผลาญพลังงาน Basal Metabolic Rate (BMR)</h2>
+				<p>BMR ย่อมาจาก Basal Metabolic Rate หรือเราสามารถเรียกได้ว่าเป็นอัตราการเผาผลาญพลังงานในแต่ละวัน โดยค่าพลังงานนี้ร่างกายจะใช้ในการขับเคลื่อนระบบเเละควบคุมอวัยวะต่างๆในร่างกายค่ะ เรามาหาค่าพลังงานที่ใช้ในส่วนนี้กันก่อนค่ะ โดยการกรอกข้อมูลในเครื่องคำนวนด้านล่างนี้ค่ะ</p>
+				
+				<div class="cal">
+					<div class="redio">
+						<label class="container">
+  							<input type="radio" checked="checked" id="male" name="a">
+ 							<span class="checkmark"></span>ผู้ชาย
+						</label>
+					</div>
+					<div class="redio">
+						<label class="container">
+  							<input type="radio"  id="female" name="a">
+  							<span class="checkmark"></span>ผู้หญิง
+						</label>
+					</div>
+
+  					<p class="text">น้ำหนัก (kg)</p>
+  					<input type="number" id="weight"><br>
+
+  					<p class="text">ส่วนสูง (cm)</p>
+  					<input type="number" id="height"><br><br>
+
+  					<p class="text">อายุ (ปี)</p>
+  					<input type="number" id="age"><br><br>
+
+  					<button type="buttom" class="calbt" onclick="calC()" >คำนวณ</button>
+  					<h5>BMR (kcal)</h5>
+  					<h2 id="num">0</h2>
+				</form>
+
+			
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="buttom">
+		<div class="row">
+			<div class="box1">
+				<br>
+				<p>มหาวิทยาลัยขอนแก่น<br>Khon kaen University</p>
+				<p>เบอร์โทรศัพท์<br>043-009700</p>
+				<p>	ที่อยู่<br>123 หมู่ 16 ถ.มิตรภาพ ต.ในเมือง อ.เมือง จ.ขอนแก่น 40002</p>
+
+			</div>
+			<div class="box2">
+				<a href="group.html">ผู้จัดทำ</a>
+
+
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

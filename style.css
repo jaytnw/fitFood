@@ -1,0 +1,737 @@
+
+@font-face { 
+	font-family: "supermarket" ; 
+	src: url(supermarket.ttf ) format("truetype"); 
+
+}
+
+
+.yourFontName { font-family: supermarket , verdana, helvetica, sans-serif; }
+
+html,body{
+	margin: 0px;
+	padding: 0px;
+	font-family: "supermarket";
+
+}
+
+.banner {
+	font-family: "supermarket";
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/bg_food1.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+#banner2 {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/gym.jpeg);
+
+}
+#banner3 {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/bg_food3.jpeg);
+
+}
+#banner4 {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/bg_food2.jpeg);
+
+}
+#banner5 {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/gym2.jpg);
+	background-position: 0px -350px;
+
+}
+
+.banner .wrapper{
+	width:960px;
+	margin: auto;
+}
+
+
+.banner .row{
+	overflow: hidden;
+}
+.banner .wrapper{
+	padding-top: 150px;
+	padding-bottom: 670px;
+	color: #fff;
+	text-align: center;
+}
+.banner .wrapper1{
+	padding-top: 150px;
+	padding-bottom:300px;
+	color: #fff;
+	text-align: center;
+}
+.banner .wrapper2{
+	padding-top: 150px;
+	padding-bottom:670px;
+	color: #fff;
+	text-align: center;
+}
+
+.banner .wrapper3{
+	padding-top: 150px;
+	padding-bottom:200px;
+	color: #fff;
+	text-align: center;
+}
+
+.banner h2{
+	color: #fff;
+	font-size: 44px;
+}
+.banner p{
+	font-size: 20px;
+}
+
+.banner .button{
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.1s
+}
+.banner .button:hover{
+	color: #999;
+	background: #fff;
+
+}
+/*เมนู-----------------------------------------------*/
+.banner .nev-a{
+	float: right;
+}
+.banner .nav{
+	display: inline-block;
+	list-style: none;
+	margin: 30px;
+	margin-top: 40px;
+}
+.banner .nav li{
+	display: inline-block;
+
+}
+
+.banner .nav a{
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 25px;
+	font-style:15px ;
+
+}
+
+
+
+.banner .active a {
+	border: 1px solid white;
+}
+.banner .nav li :hover  {
+	border-bottom: 1px solid;
+}
+.banner .menu .logo img{
+	margin-top: 15px;
+	margin-left: 30px;
+	width: 85px;
+	height: auto;
+	float: left;
+	cursor: pointer;
+}
+.banner .menu{
+	max-width: 1200px;
+	margin: auto;
+}
+.banner .menu .search{
+	float: left;
+	margin-left: 200px;
+	margin-top: 30px;
+}
+.banner .search input  {
+	float: left
+	padding: 8px;
+	border: 1px solid #fff;
+	
+
+}
+.banner .search .bar  {
+	background-color: #fff;
+	background-image: url('img/search.png');
+	background-position: 10px 10px; 
+	background-repeat: no-repeat;
+	background-size: 22px;
+	padding: 12px 300px 12px 40px;
+}
+
+.banner .search .bt  {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 13px ;
+
+	
+	background-color:#95db46;
+	cursor: pointer;
+	border: none;
+	margin: -5px;
+}
+/*-------------------------------------------------------------------*/
+
+.contantFirst{*/
+	height: 700px;
+}
+.contantFirst .row{
+	height: 700px;
+	width:1600px;
+	display:block;
+	margin:auto;
+
+
+}
+.contantFirst .row .cook{
+	float: left;
+	text-align: center;
+	cursor: pointer;
+
+}
+.contantFirst .row .cal{
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	
+}
+.contantFirst .row .gps{
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+
+.contantFirst .row img{
+	float: left;
+	width: 200px;
+	margin: 100px;
+}
+.contantFirst .row .p{
+	font-size: 25px;
+	text-align: center;
+	color: #000;
+	text-decoration: none; 
+}
+.contantFirst .row .a{
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 50px;
+	color: #fff;
+	background: #95db46; 
+	border-radius: 25px;
+}
+.contantFirst .row a{
+	text-decoration: none;
+}
+
+
+
+
+
+
+/*-------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------------------------*/
+.bg1 {
+	background-image: url(img/bg_food.jpg);
+	height: 650px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: -300px;
+	background-repeat: no-repeat;
+}
+
+.bg1 .head {
+	font-size: 30px;
+	color: #fff;
+	text-align: left;
+	margin-left: 160px;
+	padding-top: 150px;
+
+
+}
+.bg1 .nHead{
+	width:340px;
+	font-size: 19px;
+	color: #fff;
+	margin-right: 1410px;
+	margin-top: -50px;
+	text-align: right;
+
+}
+/*-------------------------------------------------------------------------*/
+.nt{
+	width:350px;
+	float: none;
+	color: #fff;
+}
+
+
+
+/*เนื้อหาก้อน 2-----------------------------------------*/
+
+.contant2{
+	margin-top: 10px;
+	width:970px;
+	margin: auto;
+	font-family: "supermarket";
+
+}
+#big{
+	color: #000;
+	text-decoration: none;
+}
+
+.bg2 {
+	background-image: url(img/bg_drink.jpg);
+	height: 650px;
+	background-size: cover;
+	background-attachment: fixed;
+		background-position: -300px;
+	background-repeat: no-repeat;
+}
+
+.bg2 .head {
+	font-size: 30px;
+	color: #fff;
+	text-align: right;
+	margin-right: 120px;
+	padding-top: 150px;
+
+}
+.bg2 .nHead {
+	
+	font-size: 19px;
+	color: #fff;
+	text-align: right;
+	
+	margin-top: -55px;
+
+}
+
+
+
+/*ก้อน2-------------------------------------------------------------*/
+
+.contant2 .rowCon .box1{
+	width:350px;
+	height: auto;
+	margin: 10px;
+	float: left;
+	margin-top: 100px;
+	padding:20;
+	cursor: pointer;
+}
+.contant2 .rowCon .box1:hover{
+	box-shadow: 0px 0px 10px 5px rgba(50, 50, 50, .5);
+
+
+}
+.contant2 .rowCon .box1 img{
+	width: 350px;
+	float: none;
+	margin-bottom: -10px;
+
+}
+
+.contant2 .rowCon .box1 .h3{
+	float: none;
+	margin-bottom: -15px;
+	padding: 5px;
+	
+}
+
+.contant2 .rowCon .box1 .p1{
+	float: none;
+	margin-bottom: -20px;
+	font-size:16px;
+	padding: 5px;
+	padding-bottom :30px;
+}
+
+.contant2 .rowCon .box1 .bt1{
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color: #fff;
+	text-align: center;
+	border-radius: 25px;
+}
+
+.contant2 .rowCon .box1 .btcc{
+	margin-left: 120px;
+	padding-bottom: 30px;
+
+}
+
+.contant2 .rowCon{
+	margin-top: 12px;
+	width: 1600px;
+}
+
+
+
+/*---------------------ข้างล่าง-------------------------------------------*/
+.buttom {
+	height: 450px;	
+	background-color: #000;
+	color: #fff;
+}
+.buttom .row {
+	width:600px;
+	margin: auto;
+}
+.buttom .row .box1{
+	float: left;
+}
+.buttom .row .box2{
+	float: left;
+	padding: 100px
+}
+.buttom .row .box3{
+	float: left;
+}
+
+
+.buttom .row .box1 p{
+	width: 190px;
+	font-size: 18px;
+}
+
+.buttom .row .box2 a{
+	text-decoration: none;
+	padding: 10px 50px;
+	color: #fff;
+	background: #95db46; 
+	border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+/*---------------------ข้างล่าง-------------------------------------------*/
+
+/*--------conFood----------------------------------------------------------*/
+.conFood {
+	height: auto;
+
+}
+.conFood .row{
+	width:  960px;
+	margin:auto;
+}
+.conFood .row h5{
+	text-align: center;
+	font-size: 30px;
+	color: #63ad10;
+}
+.conFood .row img{
+	width: 960px;
+}
+
+
+.conFood .row p{
+	font-size: 20px;
+}
+.conFood .row ul{
+	font-size: 20px;
+}
+.conFood .row .center{
+	font-size: 20px;
+	text-align: center;
+}
+.conFood .row #notHor{
+	width: 600px;
+	display: block;
+	margin: auto;
+
+}
+
+.video {
+	height: 400px;
+	background: #000;
+}
+.video .row{
+	width:  960px;
+	margin:auto;
+}
+
+#allBt{
+	margin-left: 400px;
+	text-decoration: none;
+	padding: 10px 50px;
+	color: #fff;
+	background: #95db46; 
+	border-radius: 25px;
+}
+
+.allBt:hover{
+	background: #63ad10; 
+}
+
+
+
+
+
+/*--------conFood----------------------------------------------------------*/
+.cal .redio{
+	display: inline-block;
+	width: 310px;
+	height: 45px;
+	background: #939393;
+}
+
+.cal .redio .container {
+    display: block;
+    position: relative;
+    margin-left: 35px;
+    margin-top: 3px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.cal .redio .container input {
+    position: absolute;
+    opacity: 0;
+}
+
+.cal .redio .checkmark {
+    position: absolute;
+	margin-left: -135px;
+    margin-top:8px;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+
+.cal .redio .container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+
+.cal .redio .container input:checked ~ .checkmark {
+    background-color: #95db46;
+}
+
+
+.cal .redio .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+.cal .redio .container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.cal .redio .container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;	
+}
+.cal .text{
+	font-size: 20px;
+	text-align: left;
+	margin-left: 160px
+
+
+
+}
+.cal input{
+
+	width: 640px;
+	height: 45px;
+	background: #f7f7f7;
+	font-size: 20px;
+	border: none;
+	transition: 0.2s;
+	padding-left: 10px;
+
+}
+.cal input:hover{
+	background: #d1d1d1;
+}
+.cal h5{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: -40px
+}
+.cal .calbt {
+	padding: 10px 80px;
+	background: #95db46;
+	text-decoration: none;
+	color: #fff;
+	transition: 0.2s;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: "supermarket";
+}
+.cal .calbt:hover{
+	background: #66bb07;
+	transition: 0.2s;
+}
+.cal .calbt:active{
+	background: #559b07;
+	transition: 0.2s;
+}
+
+--------------------------ร้านอาหาร-----------------------------------------------
+#bigAll{
+	padding-left: 50%;
+}
+.bigAll{
+	margin-left: 1000px;
+
+}
+
+
+/*.boxRes{
+	width:960px;
+	height: 220px;
+	margin: auto;
+
+}
+
+.boxRes .row{
+	width:960px;
+	height: 220px;
+	margin: auto;
+}
+
+
+.boxRes .row .photo img{
+	float: left;
+	width: 310px;
+}
+
+.boxRes .row .head h5{
+	display: inline-block;
+	width: 300px;
+	font-size: 22px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px
+}
+
+
+.boxRes .row .des p {
+	margin-top:0px;
+	display: inline-block;
+	width: 300px;
+	margin-left: 48px;
+	
+}
+.boxRes .row .type p {
+	display: inline-block;
+	width: 300px;
+	margin-left: 48px;
+	margin-top: 60px;
+	color: #9f9f9f;
+	font-style:italic;
+}
+*/
+
+.reTx{
+	font-size: 30px;
+	color: #fff;
+	margin-left: 1000px;
+	
+
+}
+
+
+.bbbg{
+	margin-top: 60px;
+	background: url(img/bg.png);
+	color: #fff;
+	background-position: 0px 80px;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+.bbbg .row{
+	width:1000px;
+	margin: auto;
+
+}
+
+#g2{
+	width:1400px;
+	margin: auto;
+
+}
+
+.bbbg .per{
+	overflow: hidden;
+	width: 323px;
+	height: 364;
+	display: inline-block;
+
+
+
+}
+.bbbg .per img{
+	width: 250px;
+	display: block;
+	margin:auto;
+	padding-bottom: 30px;
+
+}
+.bbbg .per p{
+	text-align: center;
+	font-size: 22px;
+	margin:0px;
+}
+.bbbg #row1{
+	color: #000;
+}
+
+
+.BMI{
+		border-collapse: collapse;
+		width: 640px;
+		margin:auto;
+		background-color: #8f8f8f;
+		color: #fff;
+
+	}
+	.BMI tr ,td{
+		border: 0.5px solid #fff;
+		padding: 8px;
+		font-family: "supermarket";
+		font-size: 20px;
+		padding-right: 30px;
+		transition: 0.3s;
+
+
+
+	}
+
+	.BMI tr:hover{
+		background-color: #b6b6b6;
+
+
+	}
+
+	.BMI .head{
+		text-align: center;
+		color: #fff;
+		background: #91d840;
+	}
